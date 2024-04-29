@@ -1,5 +1,4 @@
-module github.com/sandertv/gophertunnel
-
+module github.com/Adrian8115/gophertunnel-Amethyst-Protocol
 go 1.19
 
 require (
