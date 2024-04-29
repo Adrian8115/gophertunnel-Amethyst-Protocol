@@ -1,7 +1,7 @@
 package packet
 
 import (
-	"github.com/sandertv/gophertunnel/minecraft/protocol"
+	"github.com/Adrian8115/gophertunnel-Amethyst-Protocol/minecraft/protocol"
 )
 
 // ContainerOpen is sent by the server to open a container client-side. This container must be physically

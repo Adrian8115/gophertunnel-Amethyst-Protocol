@@ -3,9 +3,9 @@ package packet
 import (
 	"bytes"
 	"fmt"
+	"github.com/Adrian8115/gophertunnel-Amethyst-Protocol/minecraft/internal"
 	"github.com/golang/snappy"
 	"github.com/klauspost/compress/flate"
-	"github.com/sandertv/gophertunnel/minecraft/internal"
 	"io"
 	"sync"
 )

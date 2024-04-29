@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/sandertv/gophertunnel/minecraft/auth"
+	"github.com/Adrian8115/gophertunnel-Amethyst-Protocol/minecraft/auth"
 	"golang.org/x/oauth2"
 )
 

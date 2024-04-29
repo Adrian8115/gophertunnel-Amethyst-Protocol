@@ -1,7 +1,7 @@
 package packet
 
 import (
-	"github.com/sandertv/gophertunnel/minecraft/protocol"
+	"github.com/Adrian8115/gophertunnel-Amethyst-Protocol/minecraft/protocol"
 )
 
 // SetCommandsEnabled is sent by the server to enable or disable the ability to execute commands for the

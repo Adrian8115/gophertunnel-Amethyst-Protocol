@@ -1,7 +1,7 @@
 package packet
 
 import (
-	"github.com/sandertv/gophertunnel/minecraft/protocol"
+	"github.com/Adrian8115/gophertunnel-Amethyst-Protocol/minecraft/protocol"
 )
 
 // PlayerToggleCrafterSlotRequest is sent by the client when it tries to toggle the state of a slot within a Crafter.

@@ -3,7 +3,7 @@ package minecraft
 import (
 	"bytes"
 	"fmt"
-	"github.com/sandertv/gophertunnel/minecraft/protocol/packet"
+	"github.com/Adrian8115/gophertunnel-Amethyst-Protocol/minecraft/protocol/packet"
 )
 
 // packetData holds the data of a Minecraft packet.

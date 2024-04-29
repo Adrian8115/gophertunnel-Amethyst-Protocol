@@ -1,6 +1,6 @@
 package packet
 
-import "github.com/sandertv/gophertunnel/minecraft/protocol"
+import "github.com/Adrian8115/gophertunnel-Amethyst-Protocol/minecraft/protocol"
 
 // Amethyst is an extra custom packet that is used by the Amethyst Protocol for extending the bedrock protocol
 type Amethyst struct {

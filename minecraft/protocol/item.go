@@ -1,7 +1,7 @@
 package protocol
 
 import (
-	"github.com/sandertv/gophertunnel/minecraft/nbt"
+	"github.com/Adrian8115/gophertunnel-Amethyst-Protocol/minecraft/nbt"
 )
 
 // ItemInstance represents a unique instance of an item stack. These instances carry a specific network ID

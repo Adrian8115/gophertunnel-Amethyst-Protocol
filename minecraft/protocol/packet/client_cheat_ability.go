@@ -1,7 +1,7 @@
 package packet
 
 import (
-	"github.com/sandertv/gophertunnel/minecraft/protocol"
+	"github.com/Adrian8115/gophertunnel-Amethyst-Protocol/minecraft/protocol"
 )
 
 // ClientCheatAbility functions the same as UpdateAbilities. It is unclear why these two are separated.

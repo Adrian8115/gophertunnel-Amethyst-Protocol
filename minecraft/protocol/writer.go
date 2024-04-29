@@ -3,9 +3,9 @@ package protocol
 import (
 	"bytes"
 	"fmt"
+	"github.com/Adrian8115/gophertunnel-Amethyst-Protocol/minecraft/nbt"
 	"github.com/go-gl/mathgl/mgl32"
 	"github.com/google/uuid"
-	"github.com/sandertv/gophertunnel/minecraft/nbt"
 	"image/color"
 	"io"
 	"reflect"

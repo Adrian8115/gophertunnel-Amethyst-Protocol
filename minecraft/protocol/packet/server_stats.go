@@ -1,6 +1,6 @@
 package packet
 
-import "github.com/sandertv/gophertunnel/minecraft/protocol"
+import "github.com/Adrian8115/gophertunnel-Amethyst-Protocol/minecraft/protocol"
 
 // ServerStats is a packet sent from the server to the client to update the client on server statistics. It is purely
 // used for telemetry.

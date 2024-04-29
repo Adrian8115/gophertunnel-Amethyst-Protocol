@@ -1,8 +1,8 @@
 package packet
 
 import (
+	"github.com/Adrian8115/gophertunnel-Amethyst-Protocol/minecraft/protocol"
 	"github.com/go-gl/mathgl/mgl32"
-	"github.com/sandertv/gophertunnel/minecraft/protocol"
 )
 
 // PlaySound is sent by the server to play a sound to the client. Some of the sounds may only be started using

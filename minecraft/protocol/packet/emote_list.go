@@ -1,8 +1,8 @@
 package packet
 
 import (
+	"github.com/Adrian8115/gophertunnel-Amethyst-Protocol/minecraft/protocol"
 	"github.com/google/uuid"
-	"github.com/sandertv/gophertunnel/minecraft/protocol"
 )
 
 // EmoteList is sent by the client every time it joins the server and when it equips new emotes. It may be

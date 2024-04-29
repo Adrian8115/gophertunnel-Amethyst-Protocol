@@ -1,10 +1,10 @@
 package packet
 
 import (
+	"github.com/Adrian8115/gophertunnel-Amethyst-Protocol/minecraft/nbt"
+	"github.com/Adrian8115/gophertunnel-Amethyst-Protocol/minecraft/protocol"
 	"github.com/go-gl/mathgl/mgl32"
 	"github.com/google/uuid"
-	"github.com/sandertv/gophertunnel/minecraft/nbt"
-	"github.com/sandertv/gophertunnel/minecraft/protocol"
 )
 
 const (

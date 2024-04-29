@@ -6,7 +6,7 @@ import (
 	"crypto/x509"
 	"encoding/base64"
 	"fmt"
-	"github.com/sandertv/gophertunnel/minecraft/protocol"
+	"github.com/Adrian8115/gophertunnel-Amethyst-Protocol/minecraft/protocol"
 	"io"
 	"net/http"
 	"strings"

@@ -1,6 +1,6 @@
 package packet
 
-import "github.com/sandertv/gophertunnel/minecraft/protocol"
+import "github.com/Adrian8115/gophertunnel-Amethyst-Protocol/minecraft/protocol"
 
 // CreatePhoto is a packet that allows players to export photos from their portfolios into items in their inventory.
 // This packet only works on the Education Edition version of Minecraft.
