@@ -2,9 +2,9 @@ package main
 
 import (
 	"errors"
+	"github.com/Adrian8115/gophertunnel-Amethyst-Protocol/minecraft"
+	"github.com/Adrian8115/gophertunnel-Amethyst-Protocol/minecraft/auth"
 	"github.com/pelletier/go-toml"
-	"github.com/sandertv/gophertunnel/minecraft"
-	"github.com/sandertv/gophertunnel/minecraft/auth"
 	"golang.org/x/oauth2"
 	"log"
 	"os"
