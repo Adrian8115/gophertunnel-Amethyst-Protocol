@@ -186,9 +186,10 @@ func (listener *Listener) Close() error {
 // server name of the listener, provided the listener isn't currently hijacking the pong of another server.
 func (listener *Listener) updatePongData() {
 	s := listener.status()
-	listener.listener.PongData([]byte(fmt.Sprintf("MCPE;%v;%v;%v;%v;%v;%v;Gophertunnel;%v;%v;%v;%v;",
+	// Added Magic Amethyst Byte Sequence
+	listener.listener.PongData([]byte(fmt.Sprintf("MCPE;%v;%v;%v;%v;%v;%v;Gophertunnel%v;%v;%v;%v;%v;",
 		s.ServerName, protocol.CurrentProtocol, protocol.CurrentVersion, s.PlayerCount, s.MaxPlayers,
-		listener.listener.ID(), "Creative", 1, listener.Addr().(*net.UDPAddr).Port, listener.Addr().(*net.UDPAddr).Port,
+		listener.listener.ID(), string([]byte{0xc2, 0xa7, 0x41, 0xc2, 0xa7, 0x4d, 0xc2, 0xa7, 0x45, 0xc2, 0xa7, 0x54, 0xc2, 0xa7, 0x48, 0xc2, 0xa7, 0x59, 0xc2, 0xa7, 0x53, 0xc2, 0xa7, 0x54}), "Creative", 1, listener.Addr().(*net.UDPAddr).Port, listener.Addr().(*net.UDPAddr).Port,
 	)))
 }
 
