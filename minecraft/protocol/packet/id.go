@@ -200,7 +200,8 @@ const (
 	IDClientCheatAbility
 	IDCameraPresets
 	IDUnlockedRecipes
-	IDCameraInstruction = iota + 101
+	IDAmethyst          = iota + 23
+	IDCameraInstruction = iota + 100
 	IDCompressedBiomeDefinitionList
 	IDTrimData
 	IDOpenSign
