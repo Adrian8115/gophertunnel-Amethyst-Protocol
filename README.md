@@ -1,7 +1,7 @@
 # gophertunnel
 > Swiss army knife for Minecraft (Bedrock Edition) software written in Go
 
-> [!HINT]
+> [!NOTE]
 > THIS IS A FORK OF GOPHERTUNNEL THAT IMPLEMENTS THE AMETHYST PROTOCOL
 
 [![PkgGoDev](https://pkg.go.dev/badge/github.com/Adrian8115/gophertunnel-Amethyst-Protocol)](https://pkg.go.dev/github.com/Adrian8115/gophertunnel-Amethyst-Protocol)
